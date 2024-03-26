@@ -1,7 +1,7 @@
 //parses the input file into Process and event
-#include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 #include <stdbool.h>
 #include <time.h>
 
@@ -256,7 +256,9 @@ int main() {
 			for (int i = 0; i < numSwapped; i++) {
 				// select a random blocked process and move it to blocked/suspend
 				processNum = getRandomProcessByState(processes, BLOCKED);
-				processes[processNum].state = BLOCKED_SUSPEND;
+				if (processNum != -1) {				
+					processes[processNum].state = BLOCKED_SUSPEND;
+				}
 			}
 		}
 
@@ -322,6 +324,15 @@ int main() {
 			}
 			processes[processNum - 1].justChanged = true;
 
+			// move a Ready/Suspend process to main memory if a process just terminated
+			if (processes[processNum - 1].state = EXIT) {
+				processNum = getRandomProcessByState(processes, READY_SUSPEND);
+				if (processNum != -1) {
+					processes[processNum].state = READY;
+				}
+
+				processes[processNum].justChanged = true;
+			}
 		}
 		// print all states
 		for (int i = 0; i < MAX_PROCESSES; i++) {

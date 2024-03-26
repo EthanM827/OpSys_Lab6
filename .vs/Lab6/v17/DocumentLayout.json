@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ethan\\Documents\\WIT\\24_Spring\\OpSys\\OpSys_Lab6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41CA9D22-EA22-4CDE-B137-0D5E8C6B73B1}|Lab6.vcxproj|C:\\Users\\ethan\\Documents\\WIT\\24_Spring\\OpSys\\OpSys_Lab6\\parser.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41CA9D22-EA22-4CDE-B137-0D5E8C6B73B1}|Lab6.vcxproj|solutionrelative:parser.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CA9D22-EA22-4CDE-B137-0D5E8C6B73B1}|Lab6.vcxproj|C:\\Users\\ethan\\Documents\\WIT\\24_Spring\\OpSys\\OpSys_Lab6\\inp3_parsed.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{41CA9D22-EA22-4CDE-B137-0D5E8C6B73B1}|Lab6.vcxproj|solutionrelative:inp3_parsed.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CA9D22-EA22-4CDE-B137-0D5E8C6B73B1}|Lab6.vcxproj|C:\\Users\\ethan\\Documents\\WIT\\24_Spring\\OpSys\\OpSys_Lab6\\inp2.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{41CA9D22-EA22-4CDE-B137-0D5E8C6B73B1}|Lab6.vcxproj|solutionrelative:inp2.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CA9D22-EA22-4CDE-B137-0D5E8C6B73B1}|Lab6.vcxproj|C:\\Users\\ethan\\Documents\\WIT\\24_Spring\\OpSys\\OpSys_Lab6\\inp3.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{41CA9D22-EA22-4CDE-B137-0D5E8C6B73B1}|Lab6.vcxproj|solutionrelative:inp3.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 20,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1405358453:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1581395151:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1088700481:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "inp2.txt",
+              "DocumentMoniker": "C:\\Users\\ethan\\Documents\\WIT\\24_Spring\\OpSys\\OpSys_Lab6\\inp2.txt",
+              "RelativeDocumentMoniker": "inp2.txt",
+              "ToolTip": "C:\\Users\\ethan\\Documents\\WIT\\24_Spring\\OpSys\\OpSys_Lab6\\inp2.txt",
+              "RelativeToolTip": "inp2.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-26T22:04:58.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "inp3.txt",
+              "DocumentMoniker": "C:\\Users\\ethan\\Documents\\WIT\\24_Spring\\OpSys\\OpSys_Lab6\\inp3.txt",
+              "RelativeDocumentMoniker": "inp3.txt",
+              "ToolTip": "C:\\Users\\ethan\\Documents\\WIT\\24_Spring\\OpSys\\OpSys_Lab6\\inp3.txt",
+              "RelativeToolTip": "inp3.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-26T22:04:58.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "inp3_parsed.txt",
+              "DocumentMoniker": "C:\\Users\\ethan\\Documents\\WIT\\24_Spring\\OpSys\\OpSys_Lab6\\inp3_parsed.txt",
+              "RelativeDocumentMoniker": "inp3_parsed.txt",
+              "ToolTip": "C:\\Users\\ethan\\Documents\\WIT\\24_Spring\\OpSys\\OpSys_Lab6\\inp3_parsed.txt",
+              "RelativeToolTip": "inp3_parsed.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-26T22:04:58.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "parser.c",
+              "DocumentMoniker": "C:\\Users\\ethan\\Documents\\WIT\\24_Spring\\OpSys\\OpSys_Lab6\\parser.c",
+              "RelativeDocumentMoniker": "parser.c",
+              "ToolTip": "C:\\Users\\ethan\\Documents\\WIT\\24_Spring\\OpSys\\OpSys_Lab6\\parser.c",
+              "RelativeToolTip": "parser.c",
+              "ViewState": "AQIAAAcBAAAApIAiRwEmwEIBAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-26T22:04:58.69Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

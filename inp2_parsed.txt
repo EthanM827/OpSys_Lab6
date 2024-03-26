@@ -1,0 +1,50 @@
+P1 Ready P2 Ready P5 Running P6 Blocked P7 New P9 Ready P11 Blocked P12 Ready P15 Blocked P20 Ready 
+
+At time 5:  Time slice for P5 expires; P9 is dispatched.
+P1 Ready P2 Ready P5 Ready* P6 Blocked P7 New P9 Running* P11 Blocked P12 Ready P15 Blocked P20 Ready 
+disk queue:
+printer queue:
+keyboard queue:
+
+At time 15: P9 requests the disk; P1 is dispatched;
+P1 Running* P2 Ready P5 Ready P6 Blocked P7 New P9 Blocked* P11 Blocked P12 Ready P15 Blocked P20 Ready 
+disk queue: P9
+printer queue:
+keyboard queue:
+
+At time 18: An interrupt occurred for P6; 
+P1 Running P2 Ready P5 Ready P6 Ready* P7 New P9 Blocked P11 Blocked P12 Ready P15 Blocked P20 Ready 
+disk queue: P9
+printer queue:
+keyboard queue:
+
+At time 20: An interrupt occurred for P11;
+P1 Running P2 Ready P5 Ready P6 Ready P7 New P9 Blocked P11 Ready* P12 Ready P15 Blocked P20 Ready 
+disk queue: P9
+printer queue:
+keyboard queue:
+
+At time 24: P1 requests the printer; P6 is dispatched.
+P1 Blocked* P2 Ready P5 Ready P6 Running* P7 New P9 Blocked P11 Ready P12 Ready P15 Blocked P20 Ready 
+disk queue: P9
+printer queue: P1
+keyboard queue:
+
+At time 28: Time slice for P6 expires; P2 is dispatched.
+P1 Blocked P2 Running* P5 Ready P6 Ready* P7 New P9 Blocked P11 Ready P12 Ready P15 Blocked P20 Ready 
+disk queue: P9
+printer queue: P1
+keyboard queue:
+
+At time 33: P2 is terminated; An interrupt occurred for P9.
+P1 Blocked P2 Exit* P5 Ready P6 Ready P7 New P9 Ready* P11 Ready P12 Ready P15 Blocked P20 Ready 
+disk queue:
+printer queue: P1
+keyboard queue:
+
+At time 36: P5 is terminated; P6 is dispatched. 
+P1 Blocked P2 Exit P5 Exit* P6 Running* P7 New P9 Ready P11 Ready P12 Ready P15 Blocked P20 Ready 
+disk queue:
+printer queue: P1
+keyboard queue:
+

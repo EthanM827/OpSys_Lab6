@@ -1,0 +1,9 @@
+P1 Ready P2 Ready P5 Running P6 Blocked P7 New P9 Ready P11 Blocked P12 Ready P15 Blocked P20 Ready end
+At time 5:  Time slice for P5 expires; P9 is dispatched.
+At time 15: P9 requests the disk; P1 is dispatched;
+At time 18: An interrupt occurred for P6; 
+At time 20: An interrupt occurred for P11;
+At time 24: P1 requests the printer; P6 is dispatched.
+At time 28: Time slice for P6 expires; P2 is dispatched.
+At time 33: P2 is terminated; An interrupt occurred for P9.
+At time 36: P5 is terminated; P6 is dispatched. 

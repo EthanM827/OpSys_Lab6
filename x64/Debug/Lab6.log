@@ -1,0 +1,4 @@
+﻿  parser.c
+C:\Users\Ethan\Documents\WIT\24_Spring\OpSys\Lab6\parser.c(82,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Ethan\Documents\WIT\24_Spring\OpSys\Lab6\parser.c(189,7): warning C4101: 'processName': unreferenced local variable
+  Lab6.vcxproj -> C:\Users\Ethan\Documents\WIT\24_Spring\OpSys\Lab6\x64\Debug\Lab6.exe

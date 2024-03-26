@@ -1,0 +1,11 @@
+P1 Ready P3 Running P5 Ready P7 Ready P8 Ready end
+At time 5:  P3 requests the disk; P7 is dispatched. 
+At time 15: Time slice for P7 expires; P8 is dispatched. 
+At time 18: P8 requests the keyboard; P5 is dispatched. 
+At time 20: P5 requests the disk; P7 is dispatched. 
+At time 24: P7 requests the printer; P1 is dispatched. 
+At time 33: An interrupt occurred for P5. 
+At time 36: An interrupt occurred for P3. 
+At time 38: P1 is terminated. 
+At time 40: An interrupt occurred for P7. 
+At time 48: An interrupt occurred for P8. 

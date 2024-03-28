@@ -251,13 +251,13 @@ int main() {
 		}
 
 		// decide if any processes should be suspended
-		printf("%f\n", getBlockedPercentage(processes));
 		if (getBlockedPercentage(processes) >= swapThreshold) {
 			for (int i = 0; i < numSwapped; i++) {
 				// select a random blocked process and move it to blocked/suspend
 				processNum = getRandomProcessByState(processes, BLOCKED);
 				if (processNum != -1) {				
-					processes[processNum].state = BLOCKED_SUSPEND;
+					processes[processNum - 1].state = BLOCKED_SUSPEND;
+					processes[processNum - 1].justChanged = true;
 				}
 			}
 		}
@@ -325,13 +325,14 @@ int main() {
 			processes[processNum - 1].justChanged = true;
 
 			// move a Ready/Suspend process to main memory if a process just terminated
-			if (processes[processNum - 1].state = EXIT) {
+			if (processes[processNum - 1].state == EXIT) {
 				processNum = getRandomProcessByState(processes, READY_SUSPEND);
 				if (processNum != -1) {
-					processes[processNum].state = READY;
+					processes[processNum - 1].state = READY;
+					processes[processNum - 1].justChanged = true;
+
 				}
 
-				processes[processNum].justChanged = true;
 			}
 		}
 		// print all states

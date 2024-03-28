@@ -1,14 +1,50 @@
-P1 Blocked P2 Running P3 Blocked P4 Blocked P5 Blocked P6 Blocked P7 Blocked P8 Blocked P9 Blocked P10 Blocked P11 Blocked P12 Blocked P13 Ready P14 Blocked P15 Blocked P16 Blocked P17 Blocked P18 Blocked P19 Blocked P20 Blocked 
+P1 Ready/Suspend P2 Ready/Suspend P3 Blocked P4 Blocked P5 Running P6 Blocked P7 Blocked P8 Blocked P9 Blocked P10 Blocked P11 Blocked P12 Blocked P13 Blocked P14 Blocked P15 Blocked P16 Blocked P17 Blocked P18 Blocked P19 Blocked P20 Blocked 
 
-At time 5: An interrupt occurred for P3; An interrupt occurred for P11;
-P1 Blocked P2 Running P3 Exit* P4 Blocked P5 Blocked P6 Blocked P7 Blocked P8 Blocked P9 Blocked P10 Blocked P11 Exit* P12 Blocked/Suspend P13 Ready P14 Blocked P15 Blocked/Suspend P16 Blocked P17 Blocked P18 Blocked P19 Blocked P20 Blocked 
+At time 5: Time slice for P5 expires; P9 is dispatched.
+P1 Ready/Suspend P2 Ready/Suspend P3 Blocked P4 Blocked P5 Ready* P6 Blocked P7 Blocked P8 Blocked P9 Running* P10 Blocked P11 Blocked P12 Blocked P13 Blocked P14 Blocked P15 Blocked P16 Blocked P17 Blocked P18 Blocked P19 Blocked P20 Blocked 
 disk queue:
 printer queue:
 keyboard queue:
 
-At time 7: Time slice for P2 expires; P3 is dispatched.
-P1 Blocked P2 Exit* P3 Exit P4 Blocked P5 Blocked P6 Blocked P7 Blocked P8 Blocked P9 Blocked/Suspend P10 Blocked P11 Blocked/Suspend P12 Blocked/Suspend P13 Ready P14 Blocked P15 Blocked/Suspend P16 Blocked P17 Blocked P18 Blocked P19 Blocked P20 Blocked 
-disk queue:
+At time 15: P9 requests the disk; P1 is dispatched;
+P1 Running* P2 Ready/Suspend P3 Blocked P4 Blocked P5 Ready P6 Blocked P7 Blocked P8 Blocked P9 Blocked* P10 Blocked P11 Blocked P12 Blocked P13 Blocked P14 Blocked P15 Blocked P16 Blocked P17 Blocked P18 Blocked P19 Blocked P20 Blocked 
+disk queue: P9
 printer queue:
+keyboard queue:
+
+At time 18: An interrupt occurred for P6; 
+P1 Running P2 Ready/Suspend P3 Blocked P4 Blocked P5 Ready P6 Ready* P7 Blocked P8 Blocked P9 Blocked P10 Blocked P11 Blocked P12 Blocked P13 Blocked P14 Blocked P15 Blocked P16 Blocked P17 Blocked P18 Blocked P19 Blocked P20 Blocked 
+disk queue: P9
+printer queue:
+keyboard queue:
+
+At time 20: An interrupt occurred for P11;
+P1 Running P2 Ready/Suspend P3 Blocked P4 Blocked P5 Ready P6 Ready P7 Blocked P8 Blocked P9 Blocked P10 Blocked P11 Ready* P12 Blocked P13 Blocked P14 Blocked P15 Blocked P16 Blocked P17 Blocked P18 Blocked P19 Blocked P20 Blocked 
+disk queue: P9
+printer queue:
+keyboard queue:
+
+At time 24: P1 requests the printer; P6 is dispatched.
+P1 Blocked* P2 Ready/Suspend P3 Blocked P4 Blocked P5 Ready P6 Running* P7 Blocked P8 Blocked P9 Blocked P10 Blocked P11 Ready P12 Blocked P13 Blocked P14 Blocked P15 Blocked P16 Blocked P17 Blocked P18 Blocked P19 Blocked P20 Blocked 
+disk queue: P9
+printer queue: P1
+keyboard queue:
+
+At time 28: Time slice for P6 expires; P2 is dispatched.
+P1 Blocked P2 Running* P3 Blocked P4 Blocked P5 Ready P6 Ready* P7 Blocked P8 Blocked P9 Blocked P10 Blocked P11 Ready P12 Blocked P13 Blocked P14 Blocked P15 Blocked P16 Blocked P17 Blocked P18 Blocked P19 Blocked P20 Blocked 
+disk queue: P9
+printer queue: P1
+keyboard queue:
+
+At time 33: P2 is terminated; An interrupt occurred for P9.
+P1 Blocked P2 Exit* P3 Blocked P4 Blocked P5 Ready P6 Ready P7 Blocked P8 Blocked P9 Ready* P10 Blocked P11 Ready P12 Blocked P13 Blocked P14 Blocked P15 Blocked P16 Blocked P17 Blocked P18 Blocked P19 Blocked P20 Blocked 
+disk queue:
+printer queue: P1
+keyboard queue:
+
+At time 36: P5 is terminated; P6 is dispatched. 
+P1 Blocked P2 Exit P3 Blocked P4 Blocked P5 Exit* P6 Running* P7 Blocked P8 Blocked P9 Ready P10 Blocked P11 Ready P12 Blocked P13 Blocked P14 Blocked P15 Blocked P16 Blocked P17 Blocked P18 Blocked P19 Blocked P20 Blocked 
+disk queue:
+printer queue: P1
 keyboard queue:
 
